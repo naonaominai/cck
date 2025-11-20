@@ -26,7 +26,7 @@ import { base } from "astro:config/server";
   <nav class="nav">
     <h1 class="nav__title">
       <span class="visually-hidden">CCK</span>
-      <a href="/" class="logolink"
+      <a href={`${import.meta.env.BASE_URL}`} class="logolink"
         ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233 78">
           <path
             fill="currentColor"
